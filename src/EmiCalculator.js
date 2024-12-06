@@ -74,7 +74,6 @@ const EmiCalculator = () => {
           placeholder="Enter loan term in months"
         />
       </div>
-
       <button
         onClick={calculateEmi}
         className={`w-full py-2 mt-4 ${isButtonDisabled ? 'bg-gray-300 cursor-not-allowed' : 'bg-blue-500 text-white hover:bg-blue-600'} rounded-md`}
