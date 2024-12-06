@@ -81,7 +81,6 @@ const EmiCalculator = () => {
       >
         Calculate EMI
       </button>
-
       {emi && (
         <div className="mt-6 text-center">
           <h3 className="text-xl font-semibold">Loan Details</h3>
